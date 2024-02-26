@@ -1,0 +1,13 @@
+symbol = input()
+nshares = int(input())
+bprice = float(input())
+sprice = float(input())
+
+print(f"Transactions for stock: {symbol}")
+print(f"Bought {nshares} shares @ {bprice}")
+print(f"Paid {nshares*bprice}")
+print(f"Commission when buying: {(nshares*bprice)*0.03}")
+print(f"Sold {nshares} shares @ {sprice}")
+print(f"Received {nshares*sprice}")
+print(f"Commision when selling: {(nshares*sprice)*0.03}")
+print(f"Profit or loss: {(nshares*sprice)-(nshares*bprice)}")

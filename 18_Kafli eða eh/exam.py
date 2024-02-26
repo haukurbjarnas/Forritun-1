@@ -1,0 +1,3 @@
+
+class Exam:
+    pass
